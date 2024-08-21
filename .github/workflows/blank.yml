@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Setup Appwrite
-        uses: appwrite/setup-for-appwrite@v2
+        uses: appwrite/setup-for-appwrite@70fbed40c61073e0c626d5e843312520190d4667
         with:
           method: email
           email: ${{ secrets.EMAIL }}
